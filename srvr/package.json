@@ -1,0 +1,16 @@
+{
+  "name": "srvr",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "node dist/index.js",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.12",
+    "@types/ws": "^8.5.11",
+    "typescript": "^5.5.4"
+  }
+}
